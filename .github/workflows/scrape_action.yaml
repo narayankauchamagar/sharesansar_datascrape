@@ -30,8 +30,8 @@ jobs:
           python scrape_nepse.py
       - name: Commit and Push Files
         run: |
-           git config --local user.email "sbmagar.sbm99@gmail.com"
-           git config --local user.name "sbmagar"        
+           git config --local user.email "narayankauchamagar@gmail.com"
+           git config --local user.name "narayankauchamagar"        
            git add .
            git commit -am "Today's share data has been scrapped successfully!"
            git push origin main
